@@ -34,6 +34,9 @@ body {
     font-weight: 600;
 }
 
+.logo span {
+    color: #6ca7ff;
+}
 
 .nav-links {
     list-style: none;
