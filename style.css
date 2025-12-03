@@ -35,8 +35,7 @@ body {
 }
 
 .logo span {
-    color: #b58aff; /* cor do sobrenome */
-    font-weight: 600;
+    color: #b58aff; /* escolha a cor que quiser */
 }
 
 .nav-links {
