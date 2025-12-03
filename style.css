@@ -1,0 +1,174 @@
+/* ====== ESTILO GERAL ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f8ff;
+    color: #333;
+}
+
+/* ====== HEADER / HERO ====== */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(60,0,100,0.4), rgba(60,0,100,0.4)),
+                url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 60px;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.logo span {
+    color: #b58aff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d7c0ff;
+}
+
+.hero-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+}
+
+.hero-content h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: #b58aff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #9a6ff5;
+}
+
+/* ====== SOBRE ====== */
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    gap: 40px;
+}
+
+.sobre img {
+    width: 45%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #4a2a75;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* ====== SERVIÇOS ====== */
+.servicos {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.servicos h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #4a2a75;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 280px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    font-size: 22px;
+    color: #6a3fb8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ====== FOOTER ====== */
+.footer {
+    background-color: #4a2a75;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+}
